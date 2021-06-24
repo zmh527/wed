@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home-land Bootstarp Website Template | Home :: w3layouts</title>
+		<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="./css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<!-- web-font -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!-- web-font -->
+		<!-- js -->
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/modernizr.custom.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- js -->
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="./js/move-top.js"></script>
+		<script type="text/javascript" src="./js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- start-smoth-scrolling -->
+	</head>
+	<body>
+		<!-- header -->
+		<div id="home" class="header-top">
+			<!-- container -->
+			<div class="container">
+				<div class="head-left">
+					<a href="#"><img src="./images/logo.png" alt="" /></a>
+				</div>
+				<div class="head-right">
+					<div class="phone">
+						<p>Phone:
+							<span>+1 234 567 9871</span>
+						</p>
+					</div>
+					<div class="location">
+						<p>Location:
+							<span>东莞 莞城街道</span>
+							学院路251号.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!-- //container -->
+		</div>
+		<div class="header-bottom">
+			<!-- container -->
+			<div class="container">
+				<div class="top-nav">
+					<span class="menu">Menu</span>
+					<ul class="nav1">
+						<li><a href="#home" class="scroll">主页</a></li>
+						<li><a href="#about" class="scroll active">关于</a></li>
+						
+						<li><a href="#galary" class="scroll">画集</a></li>
+						<li><a href="#blog" class="scroll">博客</a></li>
+						<li><a href="#contact" class="scroll">联系我们</a></li>
+					</ul>
+					<!-- script-for-menu -->
+							 <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.nav1" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							</script>
+					<!-- /script-for-menu -->
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //header -->
+		<!-- banner -->
+			<!--- banner Slider starts Here --->
+	  			<script src="./js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!----//End-slider-script---->
+					  <div  id="top" class="callbacks_container">
+						<ul class="rslides" id="slider4">
+							<li>
+							<div class="banner">
+								<div class="banner-info">
+									<h1>城市名园----你的别墅人生</h1>
+									<p>一道亮丽的风景线---国都高尔夫花园 
+										<span>有融乃大追求卓越，尊享天玺欧式奢华。</span>
+										站得高，声望可及；看得远，梦想成真。
+									</p>
+								</div>
+							</div>
+							</li>
+							<li>
+							<div class="banner">
+								<div class="banner-info">
+									<h1>黄金地段，智者首选——融大·天玺。</h1>
+									<p>儒商贵族名门旺，奢华领地财富丰。  
+										<span>融大地产：豪华奉献，顶级享受。 </span>
+										融大·天玺，值得您珍藏的奢华。
+									</p>
+								</div>
+							</div>
+							</li>
+							<li>
+							<div class="banner">
+								<div class="banner-info">
+									<h1>让高度更有气度——融大·天玺。</h1>
+									<p>融大，骛远，接受来自爱琴海的祝福。 
+										<span>集万般奢华的期盼，成欧尚之城的神话。</span>
+										至诚归属，恒立天下，有融乃大。
+									</p>
+								</div>
+							</div>
+							</li>
+						</ul>
+						<div class="clearfix"> </div>
+						<!-- banner Slider Ends Here --> 
+					</div>
+					<div class="clearfix"> </div>
+		<!-- //banner -->
+		<!-- banner-bottom -->
+		<div class="banner-bottom">
+			<!-- container -->
+			<div class="container">
+				<h3>功能属性</h3>
+				<div class="bottom-grids">
+					<div class="col-md-4 bottom-grid bottom-grid-left">
+						<div class="lock"> </div>
+						<h4>租赁</h4>
+						<p>Lorem Ipsum is that it has a 
+							<span>more-or-less normal more-or-less normal </span>
+							distribution of lettersmore-or-less normal
+						</p>
+					</div>
+					<div class="col-md-4 bottom-grid bottom-grid-middle">
+						<div class="money"> </div>
+						<h4>借用</h4>
+						<p>Lorem Ipsum is that it has a 
+							<span>more-or-less normal more-or-less normal </span>
+							distribution of lettersmore-or-less normal
+						</p>
+					</div>
+					<div class="col-md-4 bottom-grid bottom-grid-right">
+						<div class="pin"> </div>
+						<h4>办公室的使用</h4>
+						<p>Lorem Ipsum is that it has a 
+							<span>more-or-less normal more-or-less normal </span>
+							distribution of lettersmore-or-less normal
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>	
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //banner-bottom -->
+		<!-- about -->
+		<div id="about" class="about">
+			<!-- container -->
+			<div class="container">
+				<div class="about-info">
+					<h3>关于<h3>
+				</div>
+				<div class="about-grids">
+					<div class="col-md-8 about-grid-left">
+						<h4>广东房地产信息咨询有限公司深圳家和盛世网点分公司是中国新型城镇化进程的身体力行者，
+						是全球绿色生态智慧城市的建造者
+						</h4>
+						<p>不仅为超过400个城镇带来现代化的城市面貌，提升当地人民的居住条件和生活品质，
+						还在新加坡旁以当今世界先进的城市设计理念首建立体分层现代城市——森林城市。
+						</p>
+						<div class="botton">
+							<a href="#">了解更多 ...</a>
+						</div>
+					</div>
+					<div class="col-md-4 about-grid-right">
+						<img src="./images/2.jpg" alt="" />
+					</div>
+					<div class="clearfix"> </div>
+					<div class="about-bottom-grids">
+						<div class="col-md-6 about-bottom-grid-left">
+							<h4>经验</h4>
+							<p>森林城市地面都是公园，车辆在底层穿行，地面是无污染轨道交通，建筑外墙长满垂直分布的植物，
+							每一天，人们就都生活在花园里，呼吸在森林里，愉悦在自然之中。森林城市将是未来城市的榜样。
+							20多年来，房地产都是所在城市亮丽风景线和名片。
+							园林景观、生活广场使当地人民流连忘返，会所、物业服务令人生活舒适、安全。
+							城市的建筑、园林、管理都应经得起历史的检验，房地产在每座城市都将小区品质做到一步到位：
+							建世界一流的小区！所以现已有超过300万业主选择在房地产安居乐业。
+							</p>
+						</div>
+						<div class="col-md-6 about-bottom-grid-left">
+							<h4>专业</h4>
+							<p>作为拥有超10万名员工的企业，房地产大多数带装修产品平均售价仅为每平方米8000多元，是十强房企中最低的。
+							房地产每到一处都以匠心精神努力建造高性价比的房子，并同时在教育、生活、医疗等方面，满足高品位追求者的居住生活梦想。
+							房地产期望每位员工都心怀如下理念并全力做到：
+							“希望社会因我们的存在而变得更加美好”；
+							“我们要做有良心、有社会责任感的阳光企业”。
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //about -->
+		<!-- testimonial -->
+		<div class="testimonial">
+			<div class="testimonial-info">
+				<h3>发展</h3>
+			</div>
+			<div class="testimonial-slid">
+				<script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider3").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!----//End-slider-script---->
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="testimonial-slid-info">
+							<p>"价值观：
+							我们要做有良心、有社会责任感的 阳光企业."
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="testimonial-slid-info">
+							<p>" 企业使命：
+							希望社会因我们的存在而变得更加美好."
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="testimonial-slid-info">
+							<p>" 人才理念
+							以德为本，德才 兼备；不拘一格， 能者居上."
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		<!-- //testimonial -->
+		
+		<!-- galary -->
+		<div id="galary" class="galary">
+			<!-- container -->
+			<div class="container">
+				<div class="galary-info">
+					<h3>画集</h3>
+				</div>
+				<div class="galary-grids">
+					<div class="col-md-4 galary-grid">
+						<div class="galary-grid-info">
+							<img src="./images/6.jpg" alt="" />
+						</div>
+						<div class="galary-grid-text">
+							<h6>房地产·润杨溪谷</h6>
+							<p>像香格里拉一样美.
+							</p>
+							<h5>12500 元/平米</h5>
+						</div>
+						<div class="new">
+							<p>new</p>
+						</div>
+					</div>
+					<div class="col-md-4 galary-grid">
+						<div class="galary-grid-info">
+							<img src="./images/7.jpg" alt="" />
+						</div>
+						<div class="galary-grid-text">
+							<h6>房地产·太东公园上城</h6>
+							<p>值得敬仰的城市公园大城.
+							</p>
+							<h5>14000 元/平米</h5>
+						</div>
+						<div class="new">
+							<p>new</p>
+						</div>
+					</div>
+					<div class="col-md-4 galary-grid">
+						<div class="galary-grid-info">
+							<img src="./images/8.jpg" alt="" />
+						</div>
+						<div class="galary-grid-text">
+							<h6>房地产·山河城</h6>
+							<p>美丽的成熟大城.
+							</p>
+							<h5>8300 元/平米</h5>
+						</div>
+						<div class="new">
+							<p>new</p>
+						</div>
+					</div>
+					<div class="col-md-4 galary-grid">
+						<div class="galary-grid-info">
+							<img src="./images/9.jpg" alt="" />
+						</div>
+						<div class="galary-grid-text">
+							<h6>房地产·翡翠山</h6>
+							<p>秦皇北路绿油油.
+							</p>
+							<h5>14500 元/平米</h5>
+						</div>
+						<div class="new">
+							<p>new</p>
+						</div>
+					</div>
+					<div class="col-md-4 galary-grid">
+						<div class="galary-grid-info">
+							<img src="./images/10.jpg" alt="" />
+						</div>
+						<div class="galary-grid-text">
+							<h6>房地产·十里银滩</h6>
+							<p>银光海滩的大城世界.
+							</p>
+							<h5>14500 元/平米</h5>
+						</div>
+						<div class="new">
+							<p>new</p>
+						</div>
+					</div>
+					<div class="col-md-4 galary-grid">
+						<div class="galary-grid-info">
+							<img src="./images/11.jpg" alt="" />
+						</div>
+						<div class="galary-grid-text">
+							<h6>房地产·太东天樾湾</h6>
+							<p>红树林里的大城世界.
+							</p>
+							<h5>14500 元/平米</h5>
+						</div>
+						<div class="new">
+							<p>new</p>
+						</div>
+						<div class="new sale">
+							<p>sale</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //galary -->
+		<!-- blog -->
+		<div id="blog" class="blog">
+			<!-- container -->
+			<div class="container">
+				<div class="blog-info">
+					<h3>博客</h3>
+				</div>
+				<div class="blog-grids">
+					<div class="col-md-8 blog-grid-left">
+						<div class="blog-grid-info">
+							<div class="blog-info-left">
+								<img src="./images/12.jpg" alt="" />
+							</div>
+							<div class="blog-info-right">
+								<p>房地产期望每位员工都心怀如下理念并全力做到：
+								“希望社会因我们的存在而变得更加美好”；
+								“我们要做有良心、有社会责任感的阳光企业”。
+								这就是房地产，一直在为人类社会的进步而不懈努力。
+								房地产——给您一个五星级的家。
+								</p>
+								<div class="botton serv">
+									<a href="#">了解更多 ...</a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="blog-grid-info top">
+							<div class="blog-info-left">
+								<img src="./images/13.jpg" alt="" />
+							</div>
+							<div class="blog-info-right">
+								<p>房地产期望每位员工都心怀如下理念并全力做到：
+								“希望社会因我们的存在而变得更加美好”；
+								“我们要做有良心、有社会责任感的阳光企业”。
+								这就是房地产，一直在为人类社会的进步而不懈努力。
+								房地产——给您一个五星级的家。
+								</p>
+								<div class="botton serv">
+									<a href="#">了解更多 ...</a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-grid-info-right">
+							<h4>list of services</h4>
+							<div class="border"> </div>
+							<ul>
+								<li><p>Lorem ipsum dolor sit amet.</p></li>
+								<li><p>Eleifend posuere nisl.</p></li>
+								<li><p>Donec bibendum in torto.</p></li>
+								<li><p>Fusce id arcu sit amet neque.</p></li>
+								<li><p>Consequat magna diam.</p></li>
+								<li><p>Fusce id arcu sit amet neque.</p></li>
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //blog -->
+		<!-- contact -->
+		<div id="contact" class="contact">
+			<!-- container -->
+			<div class="container">
+				<div class="contact-info">
+					<h3>联系</h3>
+				</div>
+			</div>
+			<!-- container -->
+			<div class="container">
+			<div class="map">
+				<iframe src="map.html" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+			</div>
+			</div>
+			<!-- container -->
+			<div class="container">
+				<div class="contact-grids">
+					<div class="col-md-5">
+						<div class="contact-grid-info">
+							<div class="contact-grid-left">
+								<h6>联系信息</h6>
+								<p>期待和你的合作.
+								</p>
+								<h6>Home-land.
+									<span>东莞 莞城街道
+									学院路251号.</span>
+								</h6>
+								<p>Telephone: +1 234 567 9871
+									<span>FAX: +1 234 567 9871</span>
+									E-mail: <a href="mailto:info@example.com">mail@user.com</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<div class="contact-grid-info">
+							<div class="contact-grid-right">
+								<h6>留下您的信息</h6>
+								<form>
+									<input type="text" placeholder="Name:" required="">
+									<input type="text" placeholder="E-mail:" required="">
+									<input type="text" placeholder="Phone:" required="">
+									<textarea placeholder="Message:" required=""></textarea>
+									<input type="submit" value="发送">
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //contact -->
+		<!-- footer -->
+		<div class="footer">
+			<!-- container -->
+			<div class="container">
+				<p>Design by <a href="http://w3layouts.com/">minghao & huazhong</a></p>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //footer -->
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- content-Get-in-touch -->
+	</body>
+</html>
